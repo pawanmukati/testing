@@ -1,0 +1,25 @@
+html, body {
+  height: 90%;
+  width: 96%;
+  background: #eee;
+  margin: 10px auto;
+}
+
+.modal {
+  position: absolute;
+  background: red;
+  top: 100%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 70%;
+  z-index: 1111;
+  display: none;
+  transition: 0.5s ease all;
+
+}
+
+.modal.show{
+  top: 50%;
+  transition: 0.5s ease all;
+  display: block;
+}
